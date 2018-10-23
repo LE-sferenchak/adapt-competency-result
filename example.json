@@ -1,0 +1,49 @@
+//components.json
+{
+    "_id": "c-130",
+    "_parentId": "b-31",
+    "_type": "component",
+    "_component": "competencyResults",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Results",
+    "displayTitle": "Results",
+    "body": "This component you're reading is a competency results component.",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "inview",
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    },
+    "_assessmentId": "Assessment 1",
+    "_completionBody" : "This component you're reading is a competency results component.<br>You have finished the assessment.<br>Your average competency rating was {{{avgRating}}}. {{{feedback}}}",
+    "_bands": [{
+            "_rating": 0,
+            "feedback": "<p>You have a long way to go, but we believe in you and can help you reach your goals.</p>",
+            "_allowRetry": false
+        },
+        {
+            "_rating": 3,
+            "feedback": "<p>Your rating is right about average. See where you can focus your energy to improve.</p>",
+            "_allowRetry": false
+        },
+        {
+            "_rating": 4,
+            "feedback": "<p>Your overall rating is looking pretty good, but still room for improvement.</p>",
+            "_allowRetry": false
+        },
+        {
+            "_rating": 5,
+            "feedback": "<p>Great work. You have the highest possible rating!</p>",
+            "_allowRetry": false,
+            "_classes": ""
+        }
+    ]
+}
+
+/*
+
+{{{feedback}}} is the only attribute specifically available through this component.
+
+
+*/

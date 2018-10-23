@@ -1,0 +1,16 @@
+{
+  "name": "adapt-competency-result",
+  "version": "0.0.1",
+  "framework": ">=2",
+  "homepage": "",
+  "issues": "",
+  "displayName": "Competency Result",
+  "component": "competencyResult",
+  "description": "A simple component to display the average competency ratings collected from slider components within an assesssment.",
+  "main": "/js/adapt-competency-result.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}
