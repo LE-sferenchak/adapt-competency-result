@@ -1,16 +1,17 @@
 {
-  "name": "adapt-competency-result",
-  "version": "0.0.1",
-  "framework": ">=2",
-  "homepage": "",
-  "issues": "",
-  "displayName": "Competency Result",
-  "component": "competencyResult",
-  "description": "A simple component to display the average competency ratings collected from slider components within an assesssment.",
-  "main": "/js/adapt-competency-result.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-component"
-  ],
-  "license": "GPLv3"
+    "name": "adapt-competency-result",
+    "repository": "https://github.com/LE-sferenchak/adapt-competency-result",
+    "framework": ">=2.0.11",
+    "version": "0.0.1",
+    "homepage": "https://github.com/LE-sferenchak/adapt-competency-result",
+    "issues": "https://github.com/LE-sferenchak/adapt-competency-result/issues",
+    "displayName": "Competency Result",
+    "component": "competencyResult",
+    "description": "A simple component to display the average competency ratings collected from slider components within an assesssment.",
+    "main": "/js/adapt-competency-result.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPLv3"
 }
